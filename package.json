@@ -1,0 +1,36 @@
+{
+  "name": "vuepress-theme-maker",
+  "version": "1.2.3",
+  "description": "Amos Tang的小站",
+  "keywords": [
+    "vuepress-theme-blog",
+    "vuepress-theme",
+    "blog-theme",
+    "vue",
+    "vuepress"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog",
+    "deploy": "sh deploy.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress/plugin-blog": "^1.9.3",
+    "@vuepress/plugin-medium-zoom": "^1.8.0",
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "valine": "^1.4.14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
